@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+#explorer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width : 100%;
+    background-color: #101010;
+}
+
+#explorer > * {
+    margin-right: 1rem;
+}
+
+#newObject {
+        color: white;
+        background-color: #202020;
+        border: none;
+        padding: 0.5rem 1rem;
+        border-radius: 4px;
+        cursor: pointer;
+    }
